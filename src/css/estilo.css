@@ -27,6 +27,9 @@ h1{
     100%{ opacity: 1;}
 }
 span{
+    position: relative;
+    top: -4px;
+    font-size: 5vh;
     color: #020113;
     animation: opacidade2 6s forwards;
 }
