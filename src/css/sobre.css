@@ -83,3 +83,65 @@ header span{
 .hamburguer.active .barra:last-child{
     transform: translateY(-12px) rotate(-360deg) rotate(-45deg);
 }
+#texto{
+    background: #111227d8;
+    color: #fff;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: solid 2px #a7821c;
+    border-bottom: solid 2px #a7821c;
+    padding: 15px;
+    text-wrap: wrap;
+}
+#inf{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #111227;
+    width: 40%;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    color: #fff;
+}
+.info .titulo{
+    margin-bottom: 20px;
+}
+.info h1{
+    color: #a7821c;
+    font-size: 30px;
+    text-shadow: 0 0 3px #a7821c;
+}
+.info h2{
+    font-size: 15px;
+}
+.info ul li{
+    list-style: none;
+    padding-bottom: 10%;
+}
+.info ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+.info ul li a:hover{
+    text-decoration: underline 1px #fff;
+    border-radius: 50px;
+}
+.info img{
+    width: 20px;
+    transition: .3s;
+}
+.info img:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 12px #e7b733);
+}
