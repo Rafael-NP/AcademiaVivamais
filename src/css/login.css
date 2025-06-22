@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style:circle;
+}
+body{
+    background-image: url(/src/assets/fundo_academia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-wrap: nowrap;
+    color: #a7821c;
+    padding: 50px;
+    animation: opacidade 2s forwards;
+}
+input{
+    width: 40%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius:2px;
+    background-color: #fafafa;
+    animation: opacidade 2s forwards;
+}
+button{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkgoldenrod;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    text-wrap: nowrap;
+    animation: opacidade 2s forwards;
+    transition: 1s;
+}
+button:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 10px #fafafa, 0 0 25px #fafafa, 0 0 40px #fafafa;
+}
+@keyframes opacidade {
+    0% { opacity: 0; }
+    40% { opacity: 0; }
+    100% { opacity: 1; }
+}
