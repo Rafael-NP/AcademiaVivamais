@@ -33,7 +33,7 @@ header span{
     gap: 3rem;
     text-align: end;
     flex-direction: column;
-    background: #000000de;
+    background: #000000f1;
     height: 100%;
 }
 .menu-header li{
@@ -82,4 +82,92 @@ header span{
 }
 .hamburguer.active .barra:last-child{
     transform: translateY(-12px) rotate(-360deg) rotate(-45deg);
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    background: #0F072B;
+    color: #fff;
+    height: 81vh;
+    padding: 25px;
+}
+#texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+#texto h1{
+    text-wrap: wrap;
+    display: flex;
+    justify-content: start;
+    align-items: top;
+    font-size: 6vh;
+}
+#texto p{
+    text-wrap: nowrap;
+    animation: color 3s infinite;
+    font-size: 2.5vh;
+    margin-top: 15px;
+}
+@keyframes color{
+    0%{ color: #e6dbac;}
+    50%{ color: #c49f39;}
+    100%{ color: #e6dbac;}
+}
+#botao{
+    margin: 80px;
+    cursor: pointer;
+}
+#botao a{
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+    color: #00a2ff;
+    border: solid 2px #00a2ff;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 20px;
+    transition: 1s;
+    box-shadow: 0 0 5px #00eeff, 0 0 10px #00a2ff;
+    font-weight: 900;
+}
+#texto #botao a:hover{
+    background: #00a2ff;
+    color: #000;
+    box-shadow: 0 0 10px #00a2ff, 0 0 20px #00a2ff, 0 0 40px #00eeff;
+}
+#imagem img{
+    display: flex;
+    opacity: 0;
+    width: 0;
+}
+@media(width >= 900px){
+    #texto h1{
+        margin: 20px;
+    }
+    #texto p{
+        margin: 20px;
+    }
+    #botao a{
+        margin: 20px;
+    }
+    #imagem img{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        opacity: 1;
+        width: 300px;
+        margin: 80px;
+        filter: invert(50%) brightness(50);
+        animation: rotacao 4s infinite;
+    }
+    @keyframes rotacao{
+        0%{
+            transform: rotate(360deg);
+        }
+        100%{
+            transform: rotate(0deg)
+        }
+    }
 }

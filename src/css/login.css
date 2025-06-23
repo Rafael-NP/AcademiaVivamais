@@ -19,7 +19,7 @@ article{
 }
 h1{
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 60px;
     text-wrap: nowrap;
     color: #a7821c;
@@ -41,7 +41,7 @@ button{
     margin: 10px;
     border: none;
     border-radius: 5px;
-    background-color: darkgoldenrod;
+    background:#a7821c;
     font-size: 20px;
     color: white;
     cursor: pointer;
