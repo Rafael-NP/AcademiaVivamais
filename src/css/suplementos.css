@@ -83,3 +83,117 @@ header span{
 .hamburguer.active .barra:last-child{
     transform: translateY(-12px) rotate(-360deg) rotate(-45deg);
 }
+#conteudo {
+    background: rgba(196, 194, 194, 0.568);
+}
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    color:white;
+    padding: 20px;
+}
+#banner{
+    width: 100%;
+    height: auto;
+    image-rendering: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.suplemento{
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #969696;
+    border-radius: 10px;
+    background: #080035;
+    box-shadow: 5px 5px 5px #353438;
+}
+.info{
+    width: 60%;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+#whey p{
+    background: #8d0505;;
+}
+#beta p{
+    background: #545394;
+}
+#creatina p{
+    background: #34b80c;
+}
+img{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+    background: #a7821c;;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #0a0909;
+    transition: .5s;
+}
+button:hover{
+    transform: scale(1.02);
+}
+footer{
+    background: #f7f7f7;
+    color:#0e0c0c;
+    padding: 10px 0;
+    margin-top: auto;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin-top: 0 auto;
+}
+.footer-content h3{
+    margin-bottom: 30px;
+}
+.footer-content ul{
+    list-style: none;
+}
+.footer-content li{
+    margin-bottom: 5px;
+}
+.footer-content a{
+    color:#020113;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer-content a:hover{
+    color:rgba(204, 138, 17, 0.89);
+}
+footer p{
+    justify-content: end;
+    margin-top: 30px;
+}
+@media (max-width:800px){
+ main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .footer-content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    max-width: 100%;
+ }
+}
