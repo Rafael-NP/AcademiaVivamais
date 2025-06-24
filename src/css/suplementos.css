@@ -183,7 +183,7 @@ footer p{
     justify-content: end;
     margin-top: 30px;
 }
-@media (max-width:800px){
+@media (width < 900px){
  main{
     display: flex;
     justify-content: center;

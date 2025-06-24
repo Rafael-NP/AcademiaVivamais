@@ -145,3 +145,10 @@ header span{
     transform: scale(1.2);
     filter: drop-shadow(0 0 12px #e7b733);
 }
+@media (width < 900px){
+    #texto{
+        font-size: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

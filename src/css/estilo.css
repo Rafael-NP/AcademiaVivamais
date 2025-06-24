@@ -38,3 +38,11 @@ span{
     50%{ opacity: 0;}
     100%{ opacity: 1;}
 }
+@media(width < 800px){
+    h1{
+        font-size: 5vh;
+    }
+    span{
+        font-size: 3vh;
+    }
+}
