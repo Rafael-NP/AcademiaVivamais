@@ -17,7 +17,7 @@ main{
 h1{
     text-align: center;
     text-wrap: nowrap;
-    font-size: 7vh;
+    font-size: 8vh;
     color: #a7821c;
     animation: opacidade1 2.5s forwards; 
 }
@@ -29,7 +29,7 @@ h1{
 span{
     position: relative;
     top: -4px;
-    font-size: 5vh;
+    font-size: 6vh;
     color: #020113;
     animation: opacidade2 6s forwards;
 }
@@ -38,7 +38,7 @@ span{
     50%{ opacity: 0;}
     100%{ opacity: 1;}
 }
-@media(width < 400px){
+@media(width < 700px){
     h1{
         font-size: 5vh;
     }
