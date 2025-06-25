@@ -93,6 +93,7 @@ header span{
     border-bottom: solid 2px #a7821c;
     padding: 15px;
     text-wrap: wrap;
+    font-family: 'Arial', sans-serif;
 }
 #inf{
     display: flex;
@@ -100,11 +101,13 @@ header span{
 }
 .info{
     margin: 30px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background: #111227;
-    width: 40%;
+    max-width: 40%;
+    min-width: 30%;
     height: 300px;
     padding: 10px;
     text-align: center;
@@ -145,10 +148,33 @@ header span{
     transform: scale(1.2);
     filter: drop-shadow(0 0 12px #e7b733);
 }
-@media (width < 900px){
+@media(width < 700px){
+    .menu-header{
+        width: 70%;
+        margin-left: 30%;
+    }
+    .menu-header li a{
+        font-size: 30px;
+    }
+    header h1{
+        font-size: 37px;
+    }
+    header span{
+        font-size: 22px;
+    }
     #texto{
-        font-size: 13px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 25px;
+        font-size: 19px;
+    }
+    .info{
+        margin: 10px;  
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    .info h1{
+        font-size: 30px;
+    }
+    #cont ul li a{
+        font-size: 0;
     }
 }

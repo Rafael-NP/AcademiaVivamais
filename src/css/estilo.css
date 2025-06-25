@@ -38,7 +38,7 @@ span{
     50%{ opacity: 0;}
     100%{ opacity: 1;}
 }
-@media(width < 800px){
+@media(width < 400px){
     h1{
         font-size: 5vh;
     }

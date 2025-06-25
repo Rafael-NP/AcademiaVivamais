@@ -58,3 +58,8 @@ button:hover{
     40% { opacity: 0; }
     100% { opacity: 1; }
 }
+@media(width < 700px){
+    h1{
+        font-size: 50px;
+    }
+}

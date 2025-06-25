@@ -181,19 +181,36 @@ footer{
 }
 footer p{
     justify-content: end;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
-@media (width < 900px){
- main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
- }
- .footer-content{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    max-width: 100%;
- }
+@media(width < 700px){
+    .menu-header{
+        width: 70%;
+        margin-left: 30%;
+    }
+    .menu-header li a{
+        font-size: 30px;
+    }
+    header h1{
+        font-size: 37px;
+    }
+    header span{
+        font-size: 22px;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #banner{
+        display: none;
+    }
+    .footer-content{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        max-width: 100%;
+    }
 }
